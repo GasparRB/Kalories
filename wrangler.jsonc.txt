@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "calorie-camera",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "ai": {
+    "binding": "AI"
+  }
+  // ── Activa estas secciones tras crear los recursos en el dashboard ──
+  // "d1_databases": [
+  //   { "binding": "DB", "database_name": "calorie-camera-db", "database_id": "PEGA-AQUI-EL-UUID" }
+  // ],
+  // "r2_buckets": [
+  //   { "binding": "PHOTOS", "bucket_name": "calorie-camera-photos" }
+  // ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "calorie-camera",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "ai": {
+    "binding": "AI"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "calorie-camera-db",
+      "database_id": "PEGA-AQUI-EL-UUID"
+    }
+  ]
+}
